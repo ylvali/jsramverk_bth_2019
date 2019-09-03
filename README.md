@@ -1,6 +1,11 @@
 # jsramverk_bth_2019
 Kurs jsramverk, BTH
 
+  <h2> Innehåll </h2>
+  <p> efo_examples : Efos exempel på flera olika ramverk </p>
+  <p> my_app_angular_example : Angulars my app nedladdad ifrån dokumentation </p>
+  <p> my_app_jsramverk: App & kursarbete av Ylvali, BTH 2019 </p> 
+
   <h2> Installera moduler </h2>
 
   <p> NgModules används för att installera moduler : @NgModule. </p>
