@@ -1,0 +1,30 @@
+{
+  "name": "jsramverk",
+  "version": "1.0.0",
+  "description": "Example code and configuration for the course [DV1612 JavaScript-based web frameworks](https://jsramverk.me) given at Blekinge Institute of Technology.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0",
+    "posttest": "npm run eslint",
+    "eslint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilfolino/jsramverk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emilfolino/jsramverk/issues"
+  },
+  "homepage": "https://github.com/emilfolino/jsramverk#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "javascript-style-guide": "^1.0.1"
+  }
+}
