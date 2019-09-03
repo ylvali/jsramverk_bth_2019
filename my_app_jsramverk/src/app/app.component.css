@@ -1,9 +1,10 @@
 
 /* Ylva app */
 
+
 .header{
   background-color: black;
-  width: 100%;
+  width: 98.5%;
   min-height: 200px;
   color: white;
   font-size: 70px;
@@ -19,6 +20,7 @@
   padding: 10px;
 }
 
+
 .navigation {
   width: 60%;
   margin: 0 auto;
@@ -30,6 +32,7 @@
   height: 100px;
 }
 
+
 .navigation a {
   text-decoration: none;
   color: gray;
@@ -37,6 +40,37 @@
   padding: 5px;
 }
 
+
 .navigation a:hover {
   color: white;
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 400px) {
+
+.routerView {
+  width: 90%;
+}
+
+.navigation {
+  width: 90%;
+}
+
+}
+
+@media screen and (max-width: 330px) {
+
+.header {
+  font-size: 50px;
+}
+
+.routerView {
+  width: 90%;
+}
+
+.navigation {
+  width: 90%;
+}
+
 }
