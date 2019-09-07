@@ -163,7 +163,7 @@ export class FormComponent {
   // Returns : output of result to user if not valid
   //
   checkValueString(theValue) {
-    var letters = /^[a-z][a-z\s]*$/;
+    var letters = /^[a-zA-Z\s]*$/;
 
     if(theValue.match(letters)) {
       this.value1_feedback = "";

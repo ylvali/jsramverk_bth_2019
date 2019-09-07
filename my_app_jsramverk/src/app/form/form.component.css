@@ -22,7 +22,7 @@ html {
 
 #textLayer {
   width: 90%;
-  min-height: 400px;
+  min-height: 600px;
   background-color: black;
   margin: 0 auto;
   padding: 40px;
@@ -52,6 +52,8 @@ html {
 #birthDay {
   width: 100%;
   margin: 0 auto;
+  border-color: white;
+  border-style: groove;
 }
 
 .bdayB {
@@ -63,6 +65,10 @@ html {
 .changeDate {
   cursor: pointer;
   font-size: 1.2em;
+  width: 15px;
+  border-radius: 20px;
+  background-color: gray;
+  margin: 0 auto;
 }
 
 .changeDate:hover {
@@ -97,6 +103,12 @@ html {
   padding: 20px;
   text-align: center;
   font-size: 1.5em;
+}
+
+
+.smallCap {
+  font-size: 0.7em;
+  text-transform: uppercase;
 }
 
 
