@@ -24,24 +24,24 @@
           <p> År: </p>
           <p> {{theSelectedYear}} </p>
 
-          <div (click)="nextYear()"> > </div>
-          <div (click)="previousYear()"> < </div> <br/>
+          <div (click)="nextYear()" class="changeDate"> > </div>
+          <div (click)="previousYear()" class="changeDate"> < </div> <br/>
         </div>
 
         <div class="bdayB">
           <p> Månad: </p>
           <p> {{theSelectedMonth}} </p>
 
-          <div (click)="nextMonth()"> > </div>
-          <div (click)="previousMonth()"> < </div> <br/>
+          <div (click)="nextMonth()" class="changeDate"> > </div>
+          <div (click)="previousMonth()" class="changeDate"> < </div> <br/>
         </div>
 
         <div class="bdayB">
           <p> Dag: </p>
           <p> {{theSelectedDay}} </p>
 
-          <div (click)="nextDay()"> > </div>
-          <div (click)="previousDay()"> < </div> <br/>
+          <div (click)="nextDay()" class="changeDate"> > </div>
+          <div (click)="previousDay()" class="changeDate"> < </div> <br/>
         </div>
 
         <div class ="bdayB" id="lastBox">

@@ -60,6 +60,15 @@ html {
   min-height: 100px;
 }
 
+.changeDate {
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.changeDate:hover {
+  color: red;
+}
+
 #lastBox {
 }
 
