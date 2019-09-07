@@ -82,6 +82,7 @@ html {
   text-transform: uppercase;
   border-radius: 25px;
   margin-top: 25%;
+  cursor: pointer;
 }
 
 .submitBtn:hover {
