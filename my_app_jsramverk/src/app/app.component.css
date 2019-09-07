@@ -29,7 +29,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   word-spacing: 4px;
-  height: 100px;
+  height: 30px;
 }
 
 
@@ -47,13 +47,22 @@
 
 
 /* Responsive Styles */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1200px) {
 
 .routerView {
-  width: 90%;
+  width: 70%;
 }
 
 .navigation {
+  width: 90%;
+}
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+.routerView {
   width: 90%;
 }
 
@@ -66,11 +75,11 @@
 }
 
 .routerView {
-  width: 90%;
+  width: 100%;
 }
 
 .navigation {
-  width: 90%;
+  width: 100%;
 }
 
 }
